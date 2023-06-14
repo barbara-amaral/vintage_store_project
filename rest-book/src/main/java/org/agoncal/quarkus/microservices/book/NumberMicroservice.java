@@ -1,4 +1,4 @@
-package org.agoncal.quarkus.microservices.number;
+package org.agoncal.quarkus.microservices.book;
 
 import org.eclipse.microprofile.openapi.annotations.ExternalDocumentation;
 import org.eclipse.microprofile.openapi.annotations.OpenAPIDefinition;
