@@ -46,6 +46,10 @@
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-container-image-docker</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
       <artifactId>quarkus-junit5</artifactId>
       <scope>test</scope>
     </dependency>
@@ -54,10 +58,10 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
-      <dependency>
-          <groupId>org.eclipse.microprofile.rest.client</groupId>
-          <artifactId>microprofile-rest-client-api</artifactId>
-      </dependency>
+    <dependency>
+      <groupId>org.eclipse.microprofile.rest.client</groupId>
+      <artifactId>microprofile-rest-client-api</artifactId>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
